@@ -33,7 +33,7 @@ PKG_kernel-image = "kernel-image"
 RPROVIDES_kernel-base = "kernel-${KERNEL_VERSION}"
 RPROVIDES_kernel-image = "kernel-image-${KERNEL_VERSION}"
 
-SRC_URI = "git://github.com/Taapat/linux-sh4-2.6.32.71.git;protocol=git;branch=stmicro \
+SRC_URI = "git://github.com/Shadowman94/linux-sh4-2.6.32.71.git;protocol=git;branch=stmicro \
     file://linux-kbuild-generate-modules-builtin_stm24_${STM_PATCH_STR}.patch \
     file://linux-sh4-linuxdvb_stm24_${STM_PATCH_STR}.patch \
     file://linux-sh4-linuxdvb_stm24_${STM_PATCH_STR}_ca.patch \

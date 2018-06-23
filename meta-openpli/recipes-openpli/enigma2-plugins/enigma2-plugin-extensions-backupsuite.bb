@@ -3,7 +3,7 @@ LICENSE = "GPLv2"
 
 LIC_FILES_CHKSUM = "file://usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/GNU_LICENSE.txt;md5=8aab2037d6ccded90e5a3a3849bc60dc"
 
-SRC_URI = "git://github.com/Pedro-Newbie/BackupSuite.git"
+SRC_URI = "git://github.com/PLi-metas/BackupSuite.git;protocol=git"
 
 SRCREV = "${AUTOREV}"
 
